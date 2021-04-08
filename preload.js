@@ -6,4 +6,12 @@ window.addEventListener('DOMContentLoaded', () => {
     for (const type of ['chrome', 'node', 'electron']) {
         replaceText(`${type}-version`, process.versions[type])
     }
-})
+
+    const button = document.querySelector('#test');
+    const clickHandler = () => {
+        console.log('Clicked!');
+    }
+    button.addEventListener('click', clickHandler);
+    
+});
+
