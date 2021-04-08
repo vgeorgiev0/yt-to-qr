@@ -1,0 +1,23 @@
+{
+  "name": "yt-to-qr",
+  "version": "0.1.0",
+  "description": "Youtube to QR-code.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vgeorgiev0/yt-to-qr.git"
+  },
+  "keywords": [],
+  "author": "vgeorgiev0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vgeorgiev0/yt-to-qr/issues"
+  },
+  "homepage": "https://github.com/vgeorgiev0/yt-to-qr#readme",
+  "devDependencies": {
+    "electron": "^12.0.2"
+  }
+}
