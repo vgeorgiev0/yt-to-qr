@@ -1,0 +1,60 @@
+body {
+    margin: auto;
+    padding: auto;
+    background: dimgrey;
+}
+
+
+h1 {
+    background-color: dimgrey;
+    text-align: center;
+    color: #4caf50;
+    text-decoration: maroon;
+    text-transform: none;
+    text-shadow: #4caf50;
+}
+
+.logo {
+    width: 15%;
+    display: block;
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+}
+
+input[type=text] {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/searchicon.png');
+    background-position: 5px 3px; 
+    background-repeat: no-repeat;
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 30.5%;
+  }
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    right: 10%;
+    top: 30%;
+} 
+
+button.hover {
+    opacity: 0.8;
+}
+
