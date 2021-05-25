@@ -37,10 +37,18 @@ const mainMenuTemplate = [
   {
     label: 'File',
     submenu:[
-    {
-      label: 'Refresh'
-      
-    },
+      {
+        label: 'MainMenu',
+        accelerator: 'Backspace',
+        click(){
+          mainWindow.loadURL(url.format({
+            pathname: path.join(__dirname, 'index.html'),
+            protocol: 'file:',
+            slashes: true
+          }));
+        }
+        
+      },
     {
       label: 'Quit',
       accelerator: process.platform == 'darwin' ? 'Command+Q' : 'Ctrl+Q',
