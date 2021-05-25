@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>YouTube to QR</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
-    <link rel="stylesheet" href="./styles.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
-    <script src="main.js"></script>
+    <title>YoutubeToQr</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- To implement a home button first -->
-    <!-- To implement a back button -->
-    <div>
-    <li><a href="https://github.com/vgeorgiev0/yt-to-qr" target="_blank">
-<img src="images/YT-to-QR-logo.png" alt="QR" class="logo">
-</a></li>
-    </div>
-    <h1 class="alpha">Convert YouTube video to a QR code</h1>
-<br><br>
-<br><br>
-<input id="textSend" onkeyup="stoppedTyping()" type="text" placeholder='YouTube'>
-    <button id="btn" disabled>GO</button>
- 
+    <h1>YoutubeToQr</h1>
+<br>
+<div>
+    <label>Paste a valid YouTube link here</label>
+    <input type="text">
+    <br>
+
+    <button type="submit" class="go-btn" disabled>GO</button>
+</div>
+<br>
+<img src="/logo.png" class="logo" alt="Logo">
 </body>
 </html>
