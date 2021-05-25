@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <base href="./">
     <title>YoutubeToQr</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -9,12 +10,13 @@
 <br>
 <div>
     <label>Paste a valid YouTube link here</label>
-    <input type="text">
+    
+    <input type="text" id="youtube-link">
     <br>
-
-    <button type="submit" class="go-btn" disabled>GO</button>
+<input type="button" class="go-btn" id="go-btn" disabled value="GO">
+<script src="./js/button.js"></script>
 </div>
 <br>
-<img src="/logo.png" class="logo" alt="Logo">
+<img src="./images/logo.png" class="logo" alt="Logo">
 </body>
 </html>
