@@ -2,8 +2,8 @@ body {
     margin: auto;
     padding: auto;
     background: dimgrey;
-    text-align: center;
 }
+
 
 h1 {
     background-color: dimgrey;
@@ -14,40 +14,45 @@ h1 {
     text-shadow: #4caf50;
 }
 
-.qr-repo {
-    width: 5%;
+.logo {
+    width: 15%;
     display: block;
-    margin-left: 0%;
-    margin-right: 99%;
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
 }
 
 input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
     background-image: url('images/searchicon.png');
-    background-position: 10px 10px; 
+    background-position: 5px 3px; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    transition: width 0.4s ease-in-out;
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 30.5%;
   }
-
-input[type=text]:focus {
-    width: 100%;
-}
 
 button {
     background-color: #4caf50;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
-}
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    right: 10%;
+    top: 30%;
+} 
 
 button.hover {
     opacity: 0.8;
