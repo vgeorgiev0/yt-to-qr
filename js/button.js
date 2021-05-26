@@ -1,6 +1,7 @@
 const goBtn = document.getElementById('go-btn');
 const youtubeLink = document.getElementById('youtube-link');
 
+// Check if YouTube link is valid then unlocks the Go button.
 youtubeLink.addEventListener('keyup', (event) =>{
     let url = event.currentTarget.value;
     if (url != undefined || url != '') {
@@ -11,4 +12,5 @@ youtubeLink.addEventListener('keyup', (event) =>{
     } else {
         goBtn.disabled = true;
     }
+
 });
