@@ -4,6 +4,15 @@ body {
     background: dimgrey;
 }
 
+label {
+    background-color: dimgrey;
+    text-align: left;
+    top: 20%;
+    color: #4caf50;
+    text-decoration: maroon;
+    text-transform: none;
+    text-shadow: #4caf50;
+}
 
 h1 {
     background-color: dimgrey;
@@ -37,7 +46,7 @@ input[type=text] {
     top: 30.5%;
   }
 
-button {
+.go-btn {
     background-color: #4caf50;
     color: white;
     border: none;
@@ -54,7 +63,7 @@ button {
     top: 30%;
 } 
 
-button.hover {
+.go-btn.hover {
     opacity: 0.8;
 }
 
